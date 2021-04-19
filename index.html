@@ -10,15 +10,17 @@
 
 <body>
   <div>
-    <div class="pass__container">
-      <p class="pass__title">
-        is your password secure?
+    <div class="pass_container">
+      <p class="pass_title">
+        IS YOUR PASSWORD SECURE?
       </p>
-      <input class="pass__input" id="password" type="text" placeholder="pass" oninput="verify_password()">
+      <div class="pass_input_area">
+        <input class="pass_input" id="password" type="text" placeholder="pass" oninput="verify_password()">
+      </div>
+      <p class="pass_details">Must have at least 8 characters with at least a number and a symbol</p>
+      <p class="pass_checker" id="chk_response"></p>
     </div>
-      <p class="pass__checker" id="chk_response">
-      </p>
-    </div>
+    <button id="btn_share_id" class="btn_share">SHARE IT!</button>
 </body>
 
 </html>

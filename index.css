@@ -1,65 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700,900');
 
 /* Base styling */
 
 body {
     width: 430px;
     margin: 0 auto;
-    background-color: #ffffba;
-    font-family: 'Raleway', sans-serif;
+    background-color: #feffff;
+    font-family: 'Oswald', sans-serif;
 }
 
-.pass__container {
+.pass_container {
     padding-top: 64px;
 }
 
-.pass__title {
+.pass_title {
     font-size: 22px;
     font-weight: 900;
     text-align: center;
-    color: #c5ba67;
+    color: #312c32;
 }
 
-.pass__input {
+.pass_input_area {
     width: 100%;
-    padding: 12px 24px;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #daad86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    background-color: transparent;
-    transition: transform 250ms ease-in-out;
+
+.pass_input {
     font-size: 14px;
     line-height: 18px;
+    border: 0;
+    background: transparent;
+    width: 100%;
 
-    color: #575756;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 18px 18px;
-    background-position: 95% center;
-    border-radius: 50px;
-    border: 1px solid #575756;
-    transition: all 250ms ease-in-out;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
+    box-sizing: border-box;
+    padding: 10px 32px 10px;
+    font-size: 18px;
+    color: #312c32;
+    border-radius: 34px;
+    display: flex;
 }
 
-.pass__input::placeholder {
+.pass_input::placeholder {
     color: rgba(87, 87, 86, 0.8);
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
 
-.pass__input:hover,
-.pass__input:focus {
-    padding: 12px 0;
-    outline: 0;
-    border: 1px solid transparent;
-    border-bottom: 1px solid #575756;
-    border-radius: 0;
-    background-position: 100% center;
+.pass_details {
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    color: #daad86;
 }
 
-.pass__checker {
+.pass_checker {
     font-size: 22px;
     font-weight: 900;
     text-align: center;
-    color: #c5ba67;
+    color: #312c32;
+}
+
+.btn_share {
+    
 }
