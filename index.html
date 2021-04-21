@@ -15,9 +15,11 @@
         IS YOUR PASSWORD SECURE?
       </p>
       <div class="pass_input_area">
-        <input class="pass_input" id="password" type="password" placeholder="pass" onkeyup="verify_password()">
+        <input class="pass_input" id="password" type="password" placeholder="type your password"
+          onkeyup="verify_password()">
+        <input class="pass_show" id="pass_show" type="button" value="show" onclick="show_password()">
       </div>
-      <p class="pass_details">Must have at least 8 characters with at least a number and a symbol</p>
+      <p class="pass_details">Must have 8 to 16 characters with at least a number and a symbol</p>
       <p class="pass_checker" id="chk_response"></p>
     </div>
     <div style="justify-content: center; display: flex;">

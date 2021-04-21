@@ -30,29 +30,39 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-
 .pass_input {
-    font-size: 14px;
     line-height: 18px;
     border: 0;
     background: transparent;
     width: 100%;
-
     box-sizing: border-box;
     padding: 10px 32px 10px;
     font-size: 18px;
     color: #312c32;
     border-radius: 34px;
-    display: flex;
 }
 
 .pass_input::placeholder {
     color: rgba(87, 87, 86, 0.8);
     text-transform: uppercase;
     letter-spacing: 1.5px;
+}
+
+.pass_show {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: transparent;
+    border-color: transparent;
+    box-sizing: border-box;
+    padding: 10px 13px 10px;
+    color: #312c32;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .pass_details {
@@ -75,14 +85,14 @@ body {
     color: #012346;
     border-color: transparent;
     position: relative;
-    
     box-sizing: border-box;
     padding: 10px 32px 10px;
     font-size: 18px;
     border-radius: 15px;
 
 }
-.btn_do_something:disabled {    
+
+.btn_do_something:disabled {
     background-color: #b8e1f5;
     color: #0124464f;
 }
