@@ -69,6 +69,20 @@ body {
     color: #312c32;
 }
 
-.btn_share {
-    
+.btn_do_something {
+    align-items: center;
+    background-color: #98dafc;
+    color: #012346;
+    border-color: transparent;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 32px 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    display: flex;
+
+}
+.btn_do_something:disabled {    
+    background-color: #b8e1f5;
+    color: #0124464f;
 }
