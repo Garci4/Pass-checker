@@ -74,12 +74,12 @@ body {
     background-color: #98dafc;
     color: #012346;
     border-color: transparent;
-    width: 50%;
+    position: relative;
+    
     box-sizing: border-box;
     padding: 10px 32px 10px;
     font-size: 18px;
     border-radius: 15px;
-    display: flex;
 
 }
 .btn_do_something:disabled {    
